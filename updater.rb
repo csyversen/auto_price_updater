@@ -1,7 +1,7 @@
 require 'rufus-scheduler'
 require 'amazon/ecs'
 require 'rest-client'
-require 'JSON'
+require 'json'
 
 scheduler = Rufus::Scheduler.new
 
