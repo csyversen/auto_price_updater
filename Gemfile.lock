@@ -1,6 +1,16 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    amazon-ecs (2.2.5)
+      nokogiri (~> 1.4)
+      ruby-hmac (~> 0.3)
+    mini_portile (0.6.0)
+    netrc (0.7.7)
+    nokogiri (1.6.2.1)
+      mini_portile (= 0.6.0)
+    rest_client (1.7.3)
+      netrc (~> 0.7.7)
+    ruby-hmac (0.4.0)
     rufus-scheduler (3.0.8)
       tzinfo
     thread_safe (0.3.4)
@@ -11,4 +21,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  amazon-ecs
+  rest_client
   rufus-scheduler

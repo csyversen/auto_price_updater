@@ -1,1 +1,1 @@
-worker: ruby run.rb start
+worker: ruby updater.rb start
