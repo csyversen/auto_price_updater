@@ -4,6 +4,7 @@ GEM
     amazon-ecs (2.2.5)
       nokogiri (~> 1.4)
       ruby-hmac (~> 0.3)
+    json (1.8.1)
     mini_portile (0.6.0)
     netrc (0.7.7)
     nokogiri (1.6.2.1)
@@ -22,5 +23,6 @@ PLATFORMS
 
 DEPENDENCIES
   amazon-ecs
+  json
   rest_client
   rufus-scheduler
