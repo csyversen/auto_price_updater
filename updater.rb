@@ -43,7 +43,7 @@ def print_products
 end
 
 
-scheduler.every '1h' do
+scheduler.every '6h' do
   puts "lol what up"
   hash = JSON.parse(get_products)
   puts "Got list of products, grabbing updated prices..."
